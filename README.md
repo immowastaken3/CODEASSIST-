@@ -42,8 +42,7 @@ cd codeassist
 uv run run.py
 # CODEASSIST-
 
-
-2. Verify Application Launch
+### 2. Verify Application Launch
 After the script finishes, open CodeAssist, load any LeetCode problem, and confirm that the container has started successfully.
 3. Optional: Dependency Verification
 You can check the versions of your installed dependencies with these commands:
