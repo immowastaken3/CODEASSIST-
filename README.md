@@ -41,8 +41,38 @@ git clone [https://github.com/gensyn-ai/codeassist](https://github.com/gensyn-ai
 cd codeassist
 uv run run.py
 # CODEASSIST-
-
+```
 ### 2. Verify Application Launch
 After the script finishes, open CodeAssist, load any LeetCode problem, and confirm that the container has started successfully.
-3. Optional: Dependency Verification
+
+### 3. Optional: Dependency Verification
 You can check the versions of your installed dependencies with these commands:
+
+```bash
+docker --version
+python3 --version
+git --version
+uv --version
+```
+Troubleshooting Note: If you encounter any errors during setup, please refer to the dedicated Troubleshooting page.
+
+### 🗺️ Supported Platforms & Installation Paths
+See platform-specific installation instructions below:
+
+| Platform | Description |
+| :--- | :--- |
+| **Windows (WSL 2)** | Install, run, and train models in a Linux-based Windows environment. |
+| **Linux (Ubuntu 22.04+)** | Install CodeAssist natively on Ubuntu or a compatible distribution for the most stable experience. |
+| **macOS (Intel & Apple Silicon)** | Install and run CodeAssist on macOS devices using Homebrew or uv. For M-Series CPUs, utilize uv for the native environment. |
+
+
+#### Happy coding Gensyneers!!
+Hope the guide was beginner friendly!!
+
+you can share your feed back at 
+
+X : @immowastaken
+
+Discord : immowastaken
+
+ GSWARM
